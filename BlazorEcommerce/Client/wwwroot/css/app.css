@@ -67,11 +67,11 @@ a, .btn-link {
     color: green;
 }
 
-.media-body {
-    flex: 1;
+.media {
+    display: flex;
+    align-items: flex-start;
 }
 
-.media-image-wrapper {
-    width: 200px;
-    text-align: center;
+.media-body {
+    flex: 1;
 }
